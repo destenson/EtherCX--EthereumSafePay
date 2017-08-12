@@ -24,6 +24,27 @@ const EtherError = () => {
 }
 
 
+// TODO: Query the contract to find out if there are pending payments left to cancel.
+// TODO: Populate a list of pending payents for cancellation.
+// TODO: Enable the user to cancel a pending payment.
+// TODO: Repopulate the list when finished
+
+const Payments = () => {
+  // TODO: get payments
+  // TODO: populate this list
+  return (<p>Sigh!</p>)
+};
+
+const CancelPaymentPage = () =>
+  <div>
+    <h1>Hi people</h1>
+    <p>Welcome to page 2, ok?</p><Payments />
+    <p>Got it</p>
+    <Link to="../">Go back to the homepage</Link>
+  </div>
+
+const PayNowPage = () => <p>STUB: Pay now</p>
+
 const IndexPageNoWeb3 = () => {
 //   return (<p>ok</p>);
 // }
